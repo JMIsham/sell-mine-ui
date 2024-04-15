@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import AddComponent from './component/addComponent';
+import AboutPage from './pages/AboutPage';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <AddComponent></AddComponent>
-      </header>
+      <AboutPage></AboutPage>
     </div>
   );
 }
